@@ -5,7 +5,7 @@
 
 
 ## 预览地址
-[vue-nicemusic](http://http://music.lastwhisper.net)
+[vue-nicemusic](http://music.lastwhisper.net)
 
 ## 目录结构
 ##### | --dist 生成打包后的文件
