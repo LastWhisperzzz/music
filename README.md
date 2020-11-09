@@ -1,7 +1,8 @@
 # vue-nicemusic 仿网易云音乐
 
-## 感谢
+## 后端API地址
 [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
 
 ## 预览地址
 [vue-nicemusic](http://http://music.lastwhisper.net)
@@ -29,21 +30,18 @@
 ##### |   |--app.vue 顶层路由
 ##### |   |--main.js 入口文件
 
-## 安装运行
+## 后端下载运行 
 ```shell
-$ git clone git@gitee.com:lxhcool/desktop-nicemusic.git
-$ cd desktop-nicemusic
+$ git clone https://github.com/Binaryify/NeteaseCloudMusicApi
+$ node app.js
+```
+
+## 前端安装运行
+```$xslt
+$ git clone https://github.com/LastWhisperzzz/music.git
 $ npm install
 $ npm run serve
 ```
 
-## 打包上线
-```shell
-$ https://github.com/Binaryify/NeteaseCloudMusicApi 构建后端服务（这个需要自行解决，不知道的建议找后端的朋友帮忙）
-$ 构建成功后打开是这样的界面就代表ok了（https://nicemusic-api.lxhcool.cn/）
-$ 构建后会有接口地址，在项目src/api/config.js中将production下面的接口地址修改成自己的api地址
-$ cd desktop-nicemusic
-$ npm install
-$ npm run build
-$ 生成dist文件夹，将里面的内容上传到自己的服务器就可以了
-```
+### 特别感谢
+Binaryify lxhcool
